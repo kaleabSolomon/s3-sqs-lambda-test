@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+lambda/node_modules/
+
+# TypeScript compilation output (optional, but good practice to ignore if only tracking .ts)
+lambda/**/*.js
+lambda/**/*.d.ts
+
+# AWS / Deployment artifacts
+lambda/function.zip
+*.zip
+
+# Local test files
+test-video.mp4
+*.mp4
+
+# Floci / LocalStack persistent data (if you ever decide to map a local data volume)
+.floci/
+.localstack/
+floci_data/
+.env
